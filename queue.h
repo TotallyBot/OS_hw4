@@ -1,3 +1,5 @@
+#ifndef queue_h
+#define queue_h
 #include <stdint.h>
 #include <stddef.h>
 #include <stdbool.h>
@@ -9,3 +11,4 @@ bool tryDequeue(void**);
 size_t size(void);
 size_t waiting(void);
 size_t visited(void);
+#endif
